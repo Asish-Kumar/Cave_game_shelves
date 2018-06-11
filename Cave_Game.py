@@ -1,5 +1,6 @@
 # Author: Asish Kumar
 # This is the actual logic behind the working of game
+# Before running this, run "Caves_Initialise.py" at least once
 import shelve
 
 cave_file = shelve.open("Caves_locations")
